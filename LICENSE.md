@@ -1,4 +1,4 @@
-# License
+ # License
 
 The original source code of the Scala Native toolchain and accompanying
 libraries is provided under Scala License:
