@@ -6,7 +6,7 @@
 
 [http://www.scala-native.org/](http://www.scala-native.org/)
 
-## License
+## License 
 
 Scala Native is distributed under the Scala license.
 [See LICENSE.md for details](https://github.com/scala-native/scala-native/blob/master/LICENSE.md)
