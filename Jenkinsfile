@@ -3,7 +3,7 @@ def OSs   = ["mac", "linux"]
 def tasks = [:]
 
 def setBuildStatus(String message, String state, String ctx, String repoUrl, String commitSha) {
-    step([
+    step([ 
         $class: "GitHubCommitStatusSetter",
         reposSource: [$class: "ManuallyEnteredRepositorySource", url: repoUrl],
         commitShaSource: [$class: "ManuallyEnteredShaSource", sha: commitSha],
